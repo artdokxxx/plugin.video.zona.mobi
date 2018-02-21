@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.zona.mobi" version="0.1.5" name="ZONA.mobi" provider-name="vl.maksime">
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.zona.mobi" version="0.1.8" name="ZONA.plus" provider-name="vl.maksime">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.requests" version="2.12.4"/>
-        <import addon="script.module.simpleplugin" version="2.2.0"/>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.simplejson"/>
+        <import addon="script.module.simpleplugin" version="2.3.2"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -12,17 +13,17 @@
         <summary lang="en">Movies and TV Shows online</summary>
         <summary lang="ru">Фильмы и Сериалы онлайн</summary>
         <description lang="en"></description>
-        <description lang="ru"></description>
+        <description lang="ru">Выбирайте фильмы и сериалы по жанру, году, рейтингу, популярности.</description>
         <disclaimer lang="en"></disclaimer>
-        <disclaimer lang="ru"></disclaimer>
+        <disclaimer lang="ru">Дополнение для просмотра фильмов и сериалов онлайн.</disclaimer>
         <language>ru</language>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <forum>http://xbmc.ru/forum/showthread.php?t=14529</forum>
-        <website>https://zona.mobi/</website>
+        <website>https://w1.zona.plus/</website>
         <email>vl.maksime@gmail.com</email>
         <source>https://github.com/vlmaksime/plugin.video.zona.mobi</source>
-        <news>v0.1.5 (2017-09-07)[CR]- Исправление ошибок</news>
+        <news>v0.1.8 (2018-02-18)[CR]- Обновлен адрес сайта[CR]- Исправлены выявленные ошибки[CR][CR]v0.1.7 (2018-01-28)[CR]- Переделан алгоритм кеширования запросов</news>
         <assets>
             <icon>icon.png</icon>
             <screenshot>resources\media\screenshot-01.jpg</screenshot>
